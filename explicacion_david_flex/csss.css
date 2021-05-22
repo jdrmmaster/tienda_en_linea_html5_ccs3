@@ -1,0 +1,121 @@
+.padre {
+    display: flex;
+    background-color: rgb(212, 207, 207);
+    height: 150px;
+}
+
+.flex-row {
+    background-color: rgb(168, 164, 164);
+    display: flex;
+    flex-direction: row;
+}
+
+.rojo {
+    background-color: rgb(119, 26, 26);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.10;
+    align-self: center;
+}
+
+.azul {
+    background-color: royalblue;
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.01;
+    align-self: center;
+}
+
+.verde {
+    background-color: rgb(13, 82, 43);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.4;
+    align-self: center;
+}
+
+.gris {
+    background-color: slategray;
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.3;
+    align-self: center;
+}
+
+.amarillo {
+    background-color: rgb(134, 134, 17);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.05;
+    align-self: flex-end;
+}
+
+.flex {}
+
+.padre-l {
+    display: flex;
+    background-color: rgb(212, 207, 207);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rojo-l {
+    background-color: rgb(119, 26, 26);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.10;
+    align-self: flex-start;
+}
+
+.azul-l {
+    background-color: royalblue;
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.9;
+    align-self: center;
+}
+
+.verd-l {
+    background-color: rgb(13, 82, 43);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.4;
+    align-self: flex-end;
+}
+
+.gris-l {
+    background-color: slategray;
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.3;
+    align-self: center;
+}
+
+.amarillo-l {
+    background-color: rgb(134, 134, 17);
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    flex: 0.05;
+    align-self: flex-start;
+}
