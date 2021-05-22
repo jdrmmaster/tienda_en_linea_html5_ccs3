@@ -1,0 +1,49 @@
+.padre {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.caja-1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: 20px;
+    height: 40px;
+    align-self: flex-start;
+}
+
+.caja-2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: 20px;
+    height: 40px;
+    align-self: flex-end;
+}
+
+.caja-3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: 20px;
+    height: 40px;
+    align-self: center;
+}
+
+.caja-4 {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: 20px;
+    height: 40px;
+}
+
+.caja-5 {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: 20px;
+    height: 40px;
+    align-self: flex-end;
+}
