@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    box-shadow: 3px 0px 3px black;
+    padding: 30px;
+}
+
+.nav-div {
+    position: absolute;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: darkmagenta;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: flex-end;
+    text-align: center;
+    position: relative;
+    top: -19;
+}
+
+.h1 {
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 50;
+    font-family: sans-serif;
+    color: rgb(78, 77, 77);
+}
+
+.icon {
+    margin-right: 3px;
+}
+
+.button- {
+    position: relative;
+    left: 1225;
+}
+
+.div-menu {
+    margin: auto;
+    padding: 10px;
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 3px black;
+    flex-direction: row;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.button-comprar {
+    cursor: pointer;
+    border: rgb(255, 255, 255);
+    text-align: center;
+    background-color: greenyellow;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: -80px;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-comprar :hover {
+    color: black;
+}
+
+.div-menu p {
+    font-family: sans-serif;
+    margin: 50px;
+    font-size: 14px;
+}
+
+.div-menu h1 {
+    font-family: sans-serif;
+    margin-left: 39px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: start;
+}
+
+.precio {
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: -10px;
+}
